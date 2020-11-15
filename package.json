@@ -1,13 +1,14 @@
 {
   "name": "axios-retry-enhancer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
     "prepublish": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "postversion": "git push --follow-tags"
   },
   "author": "tanjiahui2015@foxmail.com",
   "license": "MIT",

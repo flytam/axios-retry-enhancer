@@ -1,0 +1,10 @@
+deploy:
+  provider: npm
+  email: tanjiahui2015@foxmail.com
+  api_key:
+    secure: lcRQzimO8pqdlFjqAKvZ7UZUhcHHEnga7MeuDXo/cvVLM6TpMAnq3/Jas2rKmT95YVkzDn3/bUzAO6aSKLs//itGSkFhRLqjAWz/iIQgHIFhxtJBfRXNsrQLvP6D8mmLbC+2Yn65zWlVR2mEXI830bCu5BjeK0UAIB4ldnglCGr9+EOjaRu2NoFXdFo1pVO6xqp00P2Xcws7Zxg0vXkjZHDOh/PlKRaI8q7JgotCPQ9EDyEuFH09DuPn8WH02gqH3S7udET37M32XrzEZus0EcZ3KZuSTTe69RurxUKdtANfinP6B7qFGOGLRMRdA6G/JAGdxH2tikwJMthp6sscDiBRi0T8D18PDAPLmaQnQjkdgvRz+RgKLXK16HOBGdyNraGvjX/pLMz9OeRiHzL4NrWPELtFBet5AEkOQdxpWGrqMHt8tKOCvkafKCHxOl/U8F2iIA8pRK/uh4NLN1cnKVxm37MEo/YgBXzpgr8FGs6pwyqUuVl175mi45zE9aStH2QG/F8UKYS0kVlljx+xYbzyx5/ZXshIm5XXGdt5sL/1TVsfKN1SgVjS4xFJ+HnGahZo4DcI4YHmCV0JhSOugzjHE+uI2bfwvWVicjjcowcYfrYrEmjx78aHLXnwxqjYbvgaFF51vr26ggtalHc83j5WlIQvgZuPqjeVApn4geY=
+  on:
+    tags: true
+    repo: flytam/axios-retry-enhancer
+    branch: main
+  skip_cleanup: 'true'
