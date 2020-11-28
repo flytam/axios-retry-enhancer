@@ -1,5 +1,11 @@
 ## axios-retry-enhancer
 
+![test](https://travis-ci.com/flytam/axios-retry-enhancer.svg?branch=main)
+
+![npm](https://img.shields.io/npm/dm/axios-retry-enhancer.svg?style=flat-square)
+
+![npm](https://img.shields.io/npm/v/axios-retry-enhancer.svg?style=flat-square)
+
 Retry your http request easily when you need
 
 #### Installation
