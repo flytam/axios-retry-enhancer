@@ -1,10 +1,11 @@
 {
-    "compilerOptions": {
-        "target": "ES5",
-        "moduleResolution": "Node",
-        "declaration": true,
-        "outDir": "dist",
-        "rootDir": "src"
-    },
-    "include": ["src/"]
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "Node",
+    "module": "ES6",
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src/"]
 }
