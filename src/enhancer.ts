@@ -12,7 +12,7 @@ declare module 'axios' {
       /**
        * whether to retry fn
        */
-      shouldRetry?: (res: unknown) => boolean
+      shouldRetry?: (res: any) => boolean
     }
   }
 }
